@@ -22,3 +22,18 @@ for (let i = 0; i < hacker3.length; i++){
 
 console.log(result)
 
+let reversedName = "";
+
+for (let i = hacker3.length - 1; i >= 0; i--) {
+reversedName = reversedName + hacker3[i];
+console.log(reversedName)
+}
+
+
+if (hacker1 < hacker2) {
+  console.log("The driver's name goes first.");
+} else if (hacker2 < hacker1) {
+  console.log("Yo, the navigator goes first, definitely.");
+} else {
+  console.log("What?! You both have the same name?");
+}
